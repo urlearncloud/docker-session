@@ -1,4 +1,4 @@
-# Docker installation on Ubuntu ( AWS EC2 :- Ubuntu )
+# Docker installation on Ubuntu ( AWS EC2 :- Ubuntu )👨‍💻
 
 ## 1. Create a Ubuntu ec2 instance
 
