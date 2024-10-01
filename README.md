@@ -19,8 +19,6 @@ docker --version
 ```sh
 sudo usermod -aG docker ${USER}
 sudo reboot
-sudo systemctl start docker
-sudo systemctl enable docker
 ```
 
 ```sh
