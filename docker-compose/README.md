@@ -10,6 +10,7 @@ Docker Compose is a powerful tool for managing multi-container Docker applicatio
 ### 1. Install Docker Compose on Ubuntu :-
 
 ```sh
+sudo su
 apt update
 apt install docker.io -y
 apt install docker-compose -y
