@@ -9,7 +9,13 @@ AMi = ubuntu-22  --->  keypair = ubunu-key.pem/.ppk   --->  instance types = t2.
 ```sh
 sudo apt update
 sudo apt install docker.io -y
+sudo systemctl start docker
+sudo systemctl enable docker
 docker --version
+sudo usermod -aG docker ${USER}
+sudo reboot
+sudo systemctl start docker
+sudo systemctl enable docker
 ```
 
 SUCCESSFULLY  INSTALLED
