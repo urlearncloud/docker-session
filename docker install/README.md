@@ -31,3 +31,16 @@ SUCCESSFULLY  INSTALLED
 
 
 # Docker installation on Linux ( AWS EC2 :- Linux )👨‍💻
+
+
+## 1. Create a Linux ec2 instance
+
+AMi = Linux-2  --->  keypair = linux-key.pem/.ppk   --->  instance types = t2.micro
+
+Security group ------> SSH,HTTP,HTTPS (anywhere)
+
+## 2. Connect your instance & then run below commands
+
+```sh
+sudo yum update
+```
