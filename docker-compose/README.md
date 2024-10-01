@@ -7,14 +7,30 @@ It allows you to use a YAML file to configure your application’s services, mak
 Docker Compose is a powerful tool for managing multi-container Docker applications and simplifies the process of development, testing, and deployment.
 
 
-### 1. Install Docker Compose on Ubuntu :-
+### 1. Install Docker on Ubuntu :-
 
 ```sh
-
-apt update
-apt install docker.io -y
-apt install docker-compose -y
+sudo apt update
+sudo apt install docker.io -y
+sudo systemctl start docker
+sudo systemctl enable docker
 docker --version
+```
+
+```sh
+sudo usermod -aG docker ${USER}
+sudo reboot
+```
+
+```sh
+sudo systemctl start docker
+sudo systemctl enable docker
+```
+
+### 2. Install Docker compose on Ubuntu :-
+
+```sh
+apt install docker-compose -y
 docker-compose --version
 ```
 
