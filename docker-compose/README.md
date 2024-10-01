@@ -30,7 +30,7 @@ sudo systemctl enable docker
 ### 2. Install Docker compose on Ubuntu :-
 
 ```sh
-apt install docker-compose -y
+sudo apt install docker-compose -y
 docker-compose --version
 ```
 
