@@ -4,6 +4,8 @@
 
 AMi = ubuntu-22  --->  keypair = ubunu-key.pem/.ppk   --->  instance types = t2.micro
 
+Security group ------> SSH,HTTP,HTTPS (anywhere)
+
 ## 2. Connect your instance & then run below commands
 
 ```sh
