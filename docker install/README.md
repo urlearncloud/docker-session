@@ -42,5 +42,18 @@ Security group ------> SSH,HTTP,HTTPS (anywhere)
 ## 2. Connect your instance & then run below commands
 
 ```sh
-sudo yum update
+sudo yum update -y
+sudo amazon-linux-extras install docker -y
+sudo service docker start
+docker --version
+```
+
+```sh
+sudo usermod -aG docker $USER
+sudo reboot
+sudo service docker start
+```
+
+```sh
+sudo service docker start
 ```
