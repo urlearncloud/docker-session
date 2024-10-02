@@ -1,23 +1,32 @@
-# To create and run a Docker container using a Docker image
-
+# To create and run a Docker container using a Docker image, follow these steps:
 
 ## 1. Find or Pull a Docker Image
 
 You can either use a Docker image that you already have on your machine or pull one from Docker Hub (Docker's public repository of images).
 
-docker search <image-name>
+To search for an image :-
 
-docker pull <image-name>
+docker search (image-name)
 
-This will download the image to your local machine.
+Example :-  docker search nginx
+
+To pull an image from Docker Hub :-
+
+docker pull (image-name)
+
+Example :-  docker pull nginx
+
+This will download the latest nginx image to your local machine.
 
 ## 2. Create and Run a Container from the Image
 
 Use the docker run command to create and start a container from the pulled image.
 
-docker run -d --name <container-name> -p <host-port>:<container-port> <image-name>
+docker run -d --name (container-name) -p (host-port):(container-port) (image-name)
 
-In this example:
+Example  :-  docker run -d --name my-nginx-container -p 8080:80 nginx
+
+In this example :-
 
 -d runs the container in detached mode (in the background).
 
@@ -27,7 +36,7 @@ In this example:
 
 nginx is the name of the image you are running.
 
-You can now access the service running in the container (in this case, the Nginx web server) by visiting http://localhost:8080 in your web browser.
+You can now access the service running in the container by visiting http://localhost:8080 in your web browser. or PUBLIC-IP
 
 3. List Running Containers
 You can check if the container is running by listing all active containers:
@@ -68,6 +77,15 @@ bash
 Copy code
 docker rmi nginx
 This will delete the Docker image from your system.
+
+
+
+
+
+
+
+
+
 
 
 
