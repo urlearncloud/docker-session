@@ -18,6 +18,10 @@ Example :-  docker pull nginx
 
 This will download the latest nginx image to your local machine.
 
+To list all Docker images available locally :-
+
+docker images
+
 ## 2. Create and Run a Container from the Image
 
 Use the docker run command to create and start a container from the pulled image.
