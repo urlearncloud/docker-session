@@ -78,6 +78,11 @@ In simple words, you can understand as `containerization is a concept or technol
 
 ## Core Docker Components
 
+#### Docker Engine :
+
+
+The Docker Engine is the underlying technology that runs and manages Docker containers. It includes a daemon process that handles container management and an API for interacting with containers.
+
 
 #### Docker Client :
 
