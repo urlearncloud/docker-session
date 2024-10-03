@@ -9,7 +9,8 @@ Containers provide a way to run applications consistently across various environ
 
 They run as isolated processes on a shared operating system (OS) kernel, making them much more lightweight than traditional virtual machines (VMs), which require their own OS.
 
-#### Containers are often used in software development and operations for several reasons:
+## Key Benefits of Containers
+
 
 Isolation :- Containers encapsulate an application and its dependencies, ensuring it runs the same way regardless of where it's deployed.
 
