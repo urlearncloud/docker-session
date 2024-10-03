@@ -60,3 +60,16 @@ Hybrid and Multi-Cloud Environments :- Containers help bridge the gap between on
 Isolation and Security :- Containers provide a level of isolation, ensuring that one application cannot interfere with another. This is useful for running multiple applications or services on the same host securely.
 
 Development Environment :- Developers use containers to create isolated development environments. This ensures that applications will run the same way in development, testing, and production.
+
+
+
+## what is docker ?
+
+
+Docker is an open-source platform that automates the deployment, scaling, and management of applications using containerization. 
+
+It allows developers to package applications and their dependencies into a single, portable container that can run consistently across different environments, whether it be a developer's local machine, a cloud server, or a production environment.
+
+Docker is a containerization platform that provides easy way to containerize your applications, which means, using Docker you can build container images, run the images to create containers and also push these containers to container regestries such as DockerHub, Quay.io and so on.
+
+In simple words, you can understand as `containerization is a concept or technology` and `Docker Implements Containerization`.
