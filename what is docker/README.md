@@ -5,7 +5,7 @@ A container is a lightweight, standalone, executable software package that inclu
 
 Containers allow applications to be packaged and run in isolation from other software running on the same machine.
 
-Containers are often used in software development and operations for several reasons:
+#### Containers are often used in software development and operations for several reasons:
 
 Isolation: Containers encapsulate an application and its dependencies, ensuring it runs the same way regardless of where it's deployed.
 
