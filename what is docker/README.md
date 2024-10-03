@@ -73,3 +73,53 @@ It allows developers to package applications and their dependencies into a singl
 Docker is a containerization platform that provides easy way to containerize your applications, which means, using Docker you can build container images, run the images to create containers and also push these containers to container regestries such as DockerHub, Quay.io and so on.
 
 In simple words, you can understand as `containerization is a concept or technology` and `Docker Implements Containerization`.
+
+
+
+## Core Docker Components
+
+
+#### Docker Client :
+
+The Docker client is the interface that users interact with, typically via the command line. 
+
+It allows users to issue commands such as docker build, docker run, and docker pull to interact with Docker.
+Docker Daemon:
+
+The Docker daemon (dockerd) is the background process that manages Docker containers and images. The client communicates with the daemon to build, run, and manage containers.
+
+#### Docker Images :
+
+Docker images are read-only templates that contain a set of instructions for creating a Docker container. 
+
+Images can be built from a Dockerfile and can also be pulled from a public or private registry.
+
+A Dockerfile is a text file that contains instructions for building a Docker image. These instructions specify the base image, dependencies, application code, environment variables, and commands to run inside the container.
+
+Images are made up of layers. Each layer corresponds to an instruction in the Dockerfile. For example, installing a software package or copying files into the container creates a new layer in the image. This layering system allows Docker to reuse layers for efficiency.
+
+A Docker image is a read-only template used to create Docker containers. It contains the application code and its dependencies.
+
+Images can be built from scratch or downloaded from repositories like Docker Hub, a public registry of pre-built images.
+
+Developers can use Dockerfiles to define the steps to create an image, such as specifying the base OS, installing necessary libraries, copying application code, etc.
+
+#### Docker Containers :
+
+A Docker container is a standalone, executable package that contains everything needed to run an application—code, runtime, system tools, libraries, and settings.
+
+Containers are lightweight and can run on any system that supports Docker, ensuring consistent behavior across different environments.
+
+A container is a runtime instance of an image. It consists of :-
+
+A Docker image , Storage for any container-specific data , Networking to allow communication between containers and the outside world.
+
+#### Docker Registries :
+
+A Docker registry is a place to store and distribute Docker images. 
+
+The most common registry is Docker Hub, which hosts public and private images.
+
+Organizations can also run their own private registries.
+
+Docker uses docker pull to retrieve images from a registry and docker push to upload images.
