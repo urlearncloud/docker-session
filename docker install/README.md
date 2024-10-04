@@ -43,7 +43,7 @@ Security group ------> SSH,HTTP,HTTPS (anywhere)
 
 ```sh
 sudo yum update -y
-sudo amazon-linux-extras install docker -y
+sudo amazon-linux-extras install docker -y   <------------( for linux-2 version only ) // sudo yum install docker -y  <--------------(for linux only)
 sudo service docker start
 docker --version
 ```
